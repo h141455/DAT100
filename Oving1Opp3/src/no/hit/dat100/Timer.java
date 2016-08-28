@@ -1,13 +1,11 @@
 package no.hit.dat100;
 
 import static javax.swing.JOptionPane.*;
-
 import javax.swing.JOptionPane;
-
 
 public class Timer {
 	
-	static String message = "Oppgi hvor mange sekunder";
+	static String message = "Oppgi antall sekunder: ";
 	static String title = "Oppgave 3";
 
 	public static void main(String[] args) {
@@ -15,7 +13,7 @@ public class Timer {
 		String tallTxt=showInputDialog(null, message, title, JOptionPane.INFORMATION_MESSAGE);
 		int brukerSekunder = Integer.parseInt(tallTxt);
 		
-		// Calculating time.
+		// Calculating the time.
 		int antallTimer = brukerSekunder / 60;
 		int antallMinutter = brukerSekunder % 60;
 		int antallSekunder = brukerSekunder % 60;
