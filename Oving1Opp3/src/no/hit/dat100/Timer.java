@@ -14,8 +14,8 @@ public class Timer {
 		int brukerSekunder = Integer.parseInt(tallTxt);
 		
 		// Calculating the time.
-		int antallTimer = brukerSekunder / 60;
-		int antallMinutter = brukerSekunder % 60;
+		int antallTimer = brukerSekunder / 3600;
+		int antallMinutter = (brukerSekunder / 60) % 60;
 		int antallSekunder = brukerSekunder % 60;
 		
 		// Formating the answer and displaying the result in a dialog box.

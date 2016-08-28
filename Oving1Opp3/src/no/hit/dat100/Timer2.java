@@ -17,8 +17,8 @@ public class Timer2 {
 		brukerSekunder = tastatur.nextInt();
 		
 		// Calculating the time.
-		int antallTimer = brukerSekunder / 60;
-		int antallMinutter = brukerSekunder % 60;
+		int antallTimer = brukerSekunder / 3600;
+		int antallMinutter = (brukerSekunder / 60) % 60;
 		int antallSekunder = brukerSekunder % 60;
 		
 		// Formating the answer and displaying the result.
