@@ -1,7 +1,7 @@
 package no.hib.dat100;
 import java.util.Scanner;
 
-public class Oppgave5c {
+public class Oppgave5c3 {
 	
 	public static void main(String[] args) {
 		

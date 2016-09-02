@@ -1,9 +1,9 @@
-package no.hit.dat100;
+package no.hib.dat100;
 
 import static javax.swing.JOptionPane.*;
 import javax.swing.JOptionPane;
 
-public class Timer {
+public class Oppgave3a {
 	
 	static String message = "Oppgi antall sekunder: ";
 	static String title = "Oppgave 3";

@@ -1,7 +1,7 @@
 package no.hib.dat100;
 import easyIO.*;
 
-public class Oppgave5b {
+public class Oppgave5c2 {
 
 	public static void main(String[] args) {
 

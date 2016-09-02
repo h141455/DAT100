@@ -1,8 +1,8 @@
-package no.hit.dat100;
+package no.hib.dat100;
 
 import java.util.Scanner;
 
-public class Timer2 {
+public class Oppgave3b {
 	
 	
 	public static void main(String[] args) {
