@@ -25,6 +25,8 @@ public class Oppgave2b {
 		System.out.println("Skriv et mønster: ");
 		In tast = new In();
 		String monster = tast.inWord();
+		
+		// Counter for the same pattern
 		int antallLike = 0;
 		
 		// Look for the pattern in the string array.
